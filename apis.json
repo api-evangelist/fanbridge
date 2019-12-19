@@ -1,0 +1,62 @@
+{
+    "name": "Fanbridge",
+    "description": "<p>FanBridge.com is a Fan Relationship Management (FRM) platform that merges email and social networking with direct-to-fan tools to grow, engage, and monetize fan bases for artists, brands, and other influencers. FanBridge is the most trusted email marketing platform for fan lovers of all types. FanBridge offers competitive pricing based on your sending volume, not the number of subscribers. That means no hidden fees for growing your list.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/FanBridge_logo.png",
+    "tags": [
+        "api provider",
+        "bands",
+        "fans",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/fanbridge\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Fanbridge",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/FanBridge_logo.png",
+            "humanURL": "http:\/\/www.fanbridge.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/fanbridge-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.fanbridge.com\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/fanbridge\/lHFs"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.fanbridge.com\/api\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/fanbridge"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.fanbridge.com\/plan\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/FanBridge"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.fanbridge.com"
+        }
+    ]
+}
