@@ -1,7 +1,27 @@
 aid: fanbridge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fanbridge.png
 name: Fanbridge
-description: Fanbridge is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FanBridge was an email and SMS marketing platform for musicians, artists,
+  bands, and creators, letting them grow and message their fan mailing lists, run
+  newsletters, and capture subscribers from shows and social channels. It was surfaced
+  as a portfolio company of 500 Global and added to the API Evangelist network as a
+  stub. Enrichment (2026-07-19) confirmed FanBridge is defunct - it was acquired by
+  Kit (formerly ConvertKit) and ceased operations on April 11, 2022, with active
+  accounts migrated to the Kit platform. The domain fanbridge.com now 302-redirects
+  to kit.com/fanbridge. There is no standalone FanBridge developer API, documentation,
+  SDK, or event surface; the developer docs linked from the destination site belong
+  to Kit, not FanBridge.
 url: https://raw.githubusercontent.com/api-evangelist/fanbridge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,28 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Kit (formerly ConvertKit); ceased operations 2022-04-11;
+  accounts migrated to Kit; fanbridge.com redirects to kit.com/fanbridge.
+x-acquired-by: kit
+x-shutdown-date: '2022-04-11'
+x-redirects-to: https://kit.com/fanbridge
+x-enrichment-note: No API/OpenAPI/docs/SDK/MCP/event surface exists - provider is defunct.
+  Enrichment verified via live redirect probe (fanbridge.com -> 302 -> kit.com/fanbridge)
+  and page fetch on 2026-07-19.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Email Marketing
+- SMS Marketing
+- Music
+- Musicians
+- Fan Engagement
+- Marketing
+- Newsletters
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +60,11 @@ maintainers:
 common:
 - type: Website
   url: https://fanbridge.com
+- type: SuccessorWebsite
+  name: Kit (formerly ConvertKit) - FanBridge successor
+  url: https://kit.com/fanbridge
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
