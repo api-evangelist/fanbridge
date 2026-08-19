@@ -38,7 +38,7 @@ x-redirects-to: https://kit.com/fanbridge
 x-enrichment-note: No API/OpenAPI/docs/SDK/MCP/event surface exists - provider is defunct.
   Enrichment verified via live redirect probe (fanbridge.com -> 302 -> kit.com/fanbridge)
   and page fetch on 2026-07-19.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
