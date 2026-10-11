@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "fanbridge",
+    "captured_at": "2026-10-11T184857",
+    "source_url": "https://fanbridge.com",
+    "source_type": "Website",
+    "file": "fanbridge-2026-10-11T184857.png",
+    "bytes": 126272,
+    "capture": "playwright-local"
+  }
+]
