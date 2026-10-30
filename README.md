@@ -64,17 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FanBridge was an email and SMS marketing platform for musicians, artists, bands, and creators — used to grow and message fan mailing lists, run newsletters, and capture subscribers from shows and social channels. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a stub.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-## Status: Defunct (acquired)
+FanBridge was an email and SMS marketing platform for musicians, artists, bands, and creators, letting them grow and message their fan mailing lists, run newsletters, and capture subscribers from shows and social channels. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a stub. Enrichment (2026-07-19) confirmed FanBridge is defunct - it was acquired by Kit (formerly ConvertKit) and ceased operations on April 11, 2022, with active accounts migrated to the Kit platform. The domain fanbridge.com now 302-redirects to kit.com/fanbridge. There is no standalone FanBridge developer API, documentation, SDK, or event surface; the developer docs linked from the destination site belong to Kit, not FanBridge.
 
-Enrichment on 2026-07-19 confirmed FanBridge is no longer an operating provider:
+**Areas:** Company · Email Marketing · SMS Marketing · Music · Musicians · Fan Engagement · Marketing · Newsletters · Defunct
 
-- Acquired by **Kit** (formerly ConvertKit).
-- Ceased operations on **April 11, 2022**; active accounts were migrated to the Kit platform.
-- `https://fanbridge.com` now **302-redirects to `https://kit.com/fanbridge`**.
-- There is **no standalone FanBridge developer API, documentation, SDK, MCP server, or event surface**. The developer docs linked from the destination page belong to Kit, not FanBridge.
+## Fanbridge on APIs.io (historical record)
 
-Because the provider is defunct, no API artifacts were searched/generated/derived — there is nothing real to enrich. This repo is retained as an identity/lead record only.
+Everything profiled for Fanbridge is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fanbridge/](https://apis.io/providers/fanbridge/)** — or go straight to one of the APIs or properties below.
 
-Backed by: 500-global
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [fanbridge](https://apis.io/servers/fanbridge/fanbridge/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fanbridge.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fanbridge: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fanbridge/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
